@@ -13,10 +13,10 @@ install_unzip:
 
 mkdirs:
 	mkdir $(initial_data_dir) -p
-	mkdir $(initial_data_dir) -p
+	mkdir $(prepared_data_dir) -p
 
 install_deps: install_poetry 
-	poetry install
+	poetry install --sync --no-root
 
 download_initial_data: install_deps install_unzip mkdirs
 	poetry run gdown 1QVD03l0IIkak7rqKAuiVHHhabGud_G4y
@@ -24,8 +24,8 @@ download_initial_data: install_deps install_unzip mkdirs
 	make clean
 
 download_prepared_data: install_deps mkdirs
-	poetry run gdown 19hxrLoyxaS3JQfdXvLxUIGQ2BSST3bDU
-	poetry run gdown 1J9P9G5of3vfDQZgtwJw47NfVA_F2p3I2
+	poetry run gdown 19hxrLoyxaS3JQfdXvLxUIGQ2BSST3bDU -O $(prepared_data_dir)/dialogs_sex_emotion.parquet
+	poetry run gdown 1J9P9G5of3vfDQZgtwJw47NfVA_F2p3I2 -O $(prepared_data_dir)/prepared.parquet
 
 clean:
 	rm data.zip
