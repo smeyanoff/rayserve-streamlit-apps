@@ -24,11 +24,13 @@ Makefile установит необходимые зависимости с п�
 - в п.3 была взята модель c HuggingFace и размечена симантика диалогов
 - Также был реализован пользовательский интерфейс с gradio
 - Интерфес может учитывать случаи пересечения жанров
-![Видео без названия — сделано в Clipchamp](https://github.com/smeyanoff/dl-frameworks-course-hw2/assets/108741347/84321d1a-6944-4112-9222-f5952e70dcd4)
+![frame_stat1](https://github.com/smeyanoff/dl-frameworks-course-hw2/assets/108741347/8cc54b03-7ba1-48f0-86aa-bf1c751689dc)
+
 
 Были реализованы streamlit приложения в Huggingface Spaces
 - Приложение со статистикой по эмоциям [Приложение 1](https://huggingface.co/spaces/smeyanof/Speaker-Emotions)
 ![speaker_emotions](https://github.com/smeyanoff/dl-frameworks-course-hw2/assets/108741347/ab049af0-3099-46bd-a16a-30c4b7a960f4)
-- Приложение для разметки диалогов [Приложение 2](https://huggingface.co/spaces/smeyanof/annot-interface)
-![Видео без названия — сделано в Clipchamp (1)](https://github.com/smeyanoff/dl-frameworks-course-hw2/assets/108741347/d7368ad3-cea1-4144-a0a7-acbebf037d47)
+- Приложение для разметки диалогов [Приложение 2]
+![annot_inter1](https://github.com/smeyanoff/dl-frameworks-course-hw2/assets/108741347/2ec3d866-902a-4c20-8ad4-84c48819ebae)
+
 
