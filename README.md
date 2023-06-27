@@ -30,7 +30,7 @@ Makefile установит необходимые зависимости с п�
 Были реализованы streamlit приложения в Huggingface Spaces
 - Приложение со статистикой по эмоциям [Приложение 1](https://huggingface.co/spaces/smeyanof/Speaker-Emotions)
 ![speaker_emotions](https://github.com/smeyanoff/dl-frameworks-course-hw2/assets/108741347/ab049af0-3099-46bd-a16a-30c4b7a960f4)
-- Приложение для разметки диалогов [Приложение 2]
+- Приложение для разметки диалогов [Приложение 2](https://huggingface.co/spaces/smeyanof/annot-interface)
 ![annot_inter1](https://github.com/smeyanoff/dl-frameworks-course-hw2/assets/108741347/2ec3d866-902a-4c20-8ad4-84c48819ebae)
 
 
