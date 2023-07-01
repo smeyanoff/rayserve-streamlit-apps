@@ -2,7 +2,7 @@
 
 В данном проекте представлена:
 - ревлизация доставки моделей через Ray Serve
-- реализаци пользовательских интерфесов через streamlit и Huggingface Spaces
+- реализация пользовательских интерфесов через streamlit и Huggingface Spaces
 
 В качестве данных использовался [Movie Dialog Corpus](https://www.kaggle.com/datasets/Cornell-University/movie-dialog-corpus)
 
