@@ -1,4 +1,4 @@
-# dl-frameworks-course-hw2
+# rayserve-streamlit-apps
 
 В данном проекте представлена:
 - ревлизация доставки моделей через Ray Serve
@@ -15,7 +15,7 @@ make start
 Makefile установит необходимые зависимости с помощью poetry. Подготовленные данные скачаются в директорию `data/prepared_data`
 Если Вам по какой-то причине нужны исходные файлы, Вы можете запустить скрипт `make download_initial_data`.
 
-Ноутбук `homework2.ipynb` разбит по темам
+Ноутбук `realisation.ipynb` разбит по темам
 В Ex1 
 - п.1 Подготовка данных
 - п.2 Было реализовано api на RayServe, портировано на FastApi 
